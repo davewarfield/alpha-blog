@@ -1,27 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Homework assignment for learning HTML</title>
-</head>
-<body>
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+  <%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg" %>
+</div>
 
-<h1>alpha-blog: How to Create a Web Site</h1>
-<h2>Ruby</h2>
-<p>Ruby is a language popular for creating web sites. Learn it.</p>
-<p>Information about Ruby can be found at
- <a href="https://www.ruby-lang.org/en/">https://www.ruby-lang.org/en/</a>.</p>
-<h2>Ruby on Rails</h2>
-<p>Download and install Rails.
-<p>Rails is a framework for creating web sites. Rails is written in
-Ruby.</p>
-<p>Rails uses the MVC (Model, View, Controller) structure, along with a Router,
-to organize the code. The user writes a Model, Views, Controllers and a Router
-in Ruby. Also, various config files are edited.</p>
-<p>By default Rails uses sqlite3 for the database.</p>
-<p>WEBrick is used for the server to run your development code.</p>
-<p>Information about Ruby on Rails can be found at
- <a href="http://rubyonrails.org/">http://rubyonrails.org/</a>.</p>
-  <p> Click below to go to the Alpha Blog web pages</p>
-  <%= link_to "Alpha Blog", articles_path %> | <%= link_to 'About', about_path %>
-</body>
-</html>
