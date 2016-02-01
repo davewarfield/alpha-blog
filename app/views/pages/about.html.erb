@@ -5,19 +5,19 @@
 </head>
 <body>
 
-<h1>About alpha-blog</h1>
-<p>This page, and the home page, were created as an assignment in the "Complete Ruby On Rails Development Class.
- In code/rails_projects folder, a new rails app was created called 'alpha-blog'. In the newly created folder 'alpha-blog':</p>
-  <ul>
-    <li>In app/controllers, a pages_controller.rb file was created containing a PagesController class dervied from ApplicationController</li>
-    <li>In app/config, the routes.rb file was edited to add routes to the home and about paths</li>
-    <li>In app/views, a new 'pages' was added. In this folder:</li>
-      <ul>
-        <li>The file home.html.erb was added, containing html from the previous assignment</li>
-        <li>The file about.html.erb was added, containing the new html seen on this page</li>
-      </ul>
-  </ul>
+<h1>About Alpha Blog</h1>
+<p>Alpha Blog is a blogging service that allows users to sign up and post articles.</p>
+<ul>
+  <li>Anyone can see the articles and the signed-up users</li>
+  <li>After signing up, users can log in and log out</li>
+  <li>Only logged in users can create articles</li>
+  <li>In general, users must be logged in to edit and delete articles</li>
+  <li>In general, users can only edit and delete articles they have created</li>
+  <li>A user with admin authority can edit and delete any article, and can delete any user</li>
+</ul>
+<p>This Alpha Blog app was created by a student of the Udemy class <strong>The Complete Ruby on Rails Development Course</strong>. </p>
+
 
 <%= link_to 'Home', root_path %>
 </body>
-</heml>
+</html>
