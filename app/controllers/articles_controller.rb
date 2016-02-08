@@ -55,12 +55,12 @@ class ArticlesController < ApplicationController
   end
 
   private
-  def set_article
+    def set_article
       @article = Article.find(params[:id])
     end
 
     def article_params
-      params.require(:article).permit(:title, :description)
+      params.require(:article).permit(:title, :description, category_ids: [])
     end
     
     def require_same_user
